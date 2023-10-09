@@ -29,7 +29,7 @@ public abstract class Character{
         }
     }
 
-    public String toString(){
-        return this.getClass().getName() + "{hp=" + hp + "; power=" + power + "}";
+    public String toString() {
+        return this.getClass().getSimpleName() + "{hp=" + getHp() + ", power=" +  getPower() +"}";
     }
 }
